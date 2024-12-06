@@ -13,40 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const products = {
         1: {
-            name: "Simple Hall Decoration",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, modi id error cumque recusandae ipsum quia reprehenderit facilis suscipit ex.",
-            price: "₹1499",
-            images: ["https://www.7eventzz.com/productsicon/b37e3729ccb3a1b55f8b9ad638b4c28c1715159480.webp", "https://www.7eventzz.com/productsicon/cf8ef30062800bb955a75778d436066b1715159547.jpg"]
+            name: "",
+            description: "",
+            price: "",
+            images: [""]
         },
         2: {
-            name: "Simple Decoration for Birthday",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, modi id error cumque recusandae ipsum quia reprehenderit facilis suscipit ex.",
-            price: "₹2199",
-            images: ["https://www.7eventzz.com/productsicon/e9180dc77cdebf4fc7c5c9eab6c715801715168007.jpg"]
-        },
-        3: {
-            name: "Rose Gold Decoration",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, modi id error cumque recusandae ipsum quia reprehenderit facilis suscipit ex.",
-            price: "₹2499",
-            images: ["https://www.7eventzz.com/productsicon/106ab3cad94d81cb2553876fbe21a7cd1715418984.jpg", "https://www.7eventzz.com/productsicon/106ab3cad94d81cb2553876fbe21a7cd1715418984.jpg"]
-        },
-        4: {
-            name: "Better Together Decoration",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, modi id error cumque recusandae ipsum quia reprehenderit facilis suscipit ex.",
-            price: "₹4999",
-            images: ["https://www.7eventzz.com/productsicon/a0519cba56fbfc7adac9c0a3d313b27d1715596895.jpg", "https://www.7eventzz.com/productsicon/c4c991c9060046f09535273ef0f126fd1715596895.jpg"]
-        },
-        5: {
-            name: "Mixed Flower Backdrop Decoration",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, modi id error cumque recusandae ipsum quia reprehenderit facilis suscipit ex.",
-            price: "₹17999",
-            images: ["https://www.7eventzz.com/productsicon/4cb811134b9d39fc3104bd06ce75abad1716970737.jpg"]
-        },
-        6: {
-            name: "Unique Floral Ring Tray",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, modi id error cumque recusandae ipsum quia reprehenderit facilis suscipit ex.",
-            price: "₹2799",
-            images: ["https://www.7eventzz.com/giftitemicon/4451968692a5e17185fb5b6894ea4f671719583529.jpg"]
+            name: "",
+            description: "",
+            price: "",
+            images: [""]
         },
     };
 
