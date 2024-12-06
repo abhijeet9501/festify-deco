@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_bag" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="responsive/responsive.css">
+    <title>Festify</title>
+</head>
+
+<body>
+
+    <div id="cart-notification" class="cart-notification">
+        Product added to cart!
+    </div>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" width=200px class="logo" alt=""></a>
+
+        <div class="hamburger">
+            <span>&#9776;</span>
+        </div>
+        <div class="navbar-items">
+            <a href="/cart/cart.html" id="cart-icon">
+                <span class="material-symbols-outlined">shopping_bag</span>
+                <span id="cart-count-navbar" class="cart-count">0</span>
+            </a>
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner">
+        <h2>Merry Christmas</h2>
+        <h4>Upto 40% off</h4>
+        <h3>On all products</h3>
+        <a href="#shop"><button>Shop Now</button></a>
+    </section>
+
+    <section id="explore">
+        <h3>Explore our categories</h3>
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <a href="#birthday">
+                    <div class="ecard">
+                        <img src="https://images.pexels.com/photos/7099953/pexels-photo-7099953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        <h5>Birthday Decorations</h5>
+                    </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="#anniversary">
+                    <div class="ecard">
+                        <img src="https://images.pexels.com/photos/3402029/pexels-photo-3402029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        <h5>Anniversary Decoration</h5>
+                    </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="#wedding">
+                    <div class="ecard">
+                        <img src="https://images.pexels.com/photos/1456613/pexels-photo-1456613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        <h5>Wedding Decorations</h5>
+                    </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="">
+                    <div class="ecard">
+                        <img src="https://images.pexels.com/photos/8887156/pexels-photo-8887156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        <h5>Festival Decorations</h5>
+                    </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="">
+                    <div class="ecard">
+                        <img src="https://images.pexels.com/photos/6461827/pexels-photo-6461827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        <h5>Baby Shower</h5>
+                    </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="">
+                    <div class="ecard">
+                        <img src="https://images.pexels.com/photos/414706/pexels-photo-414706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        <h5>Party Decorations</h5>
+                    </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+    </section>
+
+    <section id="shop">
+        <h1>Shop</h1>
+        <div class="swiper mySwiper" id="birthday">
+            <h2>Birthday Decorations</h2>
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=1">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/b37e3729ccb3a1b55f8b9ad638b4c28c1715159480.webp"
+                                alt="">
+                            <h3>Simple Hall Decoration</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹1999</del> ₹1499</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="1" data-product-name="Simple Hall Decoration" data-product-price="1499" data-product-image="https://www.7eventzz.com/productsicon/thumb/b37e3729ccb3a1b55f8b9ad638b4c28c1715159480.webp">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=2">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/e9180dc77cdebf4fc7c5c9eab6c715801715168007.jpg"
+                                alt="">
+                            <h3>Simple Decoration for Birthday</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹2799</del> ₹2199</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="2" data-product-name="Simple Decoration for Birthday" data-product-price="2199" data-product-image="https://www.7eventzz.com/productsicon/thumb/e9180dc77cdebf4fc7c5c9eab6c715801715168007.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=1">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/b37e3729ccb3a1b55f8b9ad638b4c28c1715159480.webp"
+                                alt="">
+                            <h3>Simple Hall Decoration</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹1999</del> ₹1499</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="1" data-product-name="Simple Hall Decoration" data-product-price="1499" data-product-image="https://www.7eventzz.com/productsicon/thumb/b37e3729ccb3a1b55f8b9ad638b4c28c1715159480.webp">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=2">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/e9180dc77cdebf4fc7c5c9eab6c715801715168007.jpg"
+                                alt="">
+                            <h3>Simple Decoration for Birthday</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹2799</del> ₹2199</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="2" data-product-name="Simple Decoration for Birthday" data-product-price="2199" data-product-image="https://www.7eventzz.com/productsicon/thumb/e9180dc77cdebf4fc7c5c9eab6c715801715168007.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=1">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/b37e3729ccb3a1b55f8b9ad638b4c28c1715159480.webp"
+                                alt="">
+                            <h3>Simple Hall Decoration</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹1999</del> ₹1499</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="1" data-product-name="Simple Hall Decoration" data-product-price="1499" data-product-image="https://www.7eventzz.com/productsicon/thumb/b37e3729ccb3a1b55f8b9ad638b4c28c1715159480.webp">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=2">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/e9180dc77cdebf4fc7c5c9eab6c715801715168007.jpg"
+                                alt="">
+                            <h3>Simple Decoration for Birthday</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹2799</del> ₹2199</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="2" data-product-name="Simple Decoration for Birthday" data-product-price="2199" data-product-image="https://www.7eventzz.com/productsicon/thumb/e9180dc77cdebf4fc7c5c9eab6c715801715168007.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="swiper mySwiper" id="anniversary">
+            <h2>Anniversary Decorations</h2>
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=3">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/41c934c63c13ded2ec7117b73775d44d1715418984.jpg"
+                                alt="">
+                            <h3>Rose Gold Decoration</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹2999</del> ₹2499</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="3" data-product-name="Rose Gold Decoration" data-product-price="2499" data-product-image="https://www.7eventzz.com/productsicon/thumb/41c934c63c13ded2ec7117b73775d44d1715418984.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=4">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/a0519cba56fbfc7adac9c0a3d313b27d1715596895.jpg"
+                                alt="">
+                            <h3>Better Together Decoration</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹5799</del> ₹4999</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="4" data-product-name="Better Together Decoration" data-product-price="4999" data-product-image="https://www.7eventzz.com/productsicon/thumb/a0519cba56fbfc7adac9c0a3d313b27d1715596895.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=3">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/41c934c63c13ded2ec7117b73775d44d1715418984.jpg"
+                                alt="">
+                            <h3>Rose Gold Decoration</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹2999</del> ₹2499</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="3" data-product-name="Rose Gold Decoration" data-product-price="2499" data-product-image="https://www.7eventzz.com/productsicon/thumb/41c934c63c13ded2ec7117b73775d44d1715418984.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=4">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/a0519cba56fbfc7adac9c0a3d313b27d1715596895.jpg"
+                                alt="">
+                            <h3>Better Together Decoration</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹5799</del> ₹4999</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="4" data-product-name="Better Together Decoration" data-product-price="4999" data-product-image="https://www.7eventzz.com/productsicon/thumb/a0519cba56fbfc7adac9c0a3d313b27d1715596895.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper mySwiper" id="wedding">
+            <h2>Wedding Decorations</h2>
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=5">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/4cb811134b9d39fc3104bd06ce75abad1716970737.jpg"
+                                alt="">
+                            <h3>Mixed Flower Backdrop Decoration</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹20999</del> ₹17999</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="5" data-product-name="Mixed Flower Backdrop Decoration" data-product-price="17999" data-product-image="https://www.7eventzz.com/productsicon/thumb/4cb811134b9d39fc3104bd06ce75abad1716970737.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=6">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/giftitemicon/thumb/4451968692a5e17185fb5b6894ea4f671719583529.jpg"
+                                alt="">
+                            <h3>Unique Floral Ring Tray</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹3599</del> ₹2799</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="6" data-product-name="Unique Floral Ring Tray" data-product-price="2799" data-product-image="https://www.7eventzz.com/giftitemicon/thumb/4451968692a5e17185fb5b6894ea4f671719583529.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=5">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/productsicon/thumb/4cb811134b9d39fc3104bd06ce75abad1716970737.jpg"
+                                alt="">
+                            <h3>Mixed Flower Backdrop Decoration</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹20999</del> ₹17999</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="5" data-product-name="Mixed Flower Backdrop Decoration" data-product-price="17999" data-product-image="https://www.7eventzz.com/productsicon/thumb/4cb811134b9d39fc3104bd06ce75abad1716970737.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/product/product.html?productId=6">
+                        <div class="card">
+                            <img src="https://www.7eventzz.com/giftitemicon/thumb/4451968692a5e17185fb5b6894ea4f671719583529.jpg"
+                                alt="">
+                            <h3>Unique Floral Ring Tray</h3>
+                            <div class="bottom-card">
+                                <div class="price-section">
+                                    <h5><del>₹3599</del> ₹2799</h5>
+                                </div>
+                                <button class="add-to-cart" data-product-id="6" data-product-name="Unique Floral Ring Tray" data-product-price="2799" data-product-image="https://www.7eventzz.com/giftitemicon/thumb/4451968692a5e17185fb5b6894ea4f671719583529.jpg">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>
+                Welcome to <strong>Festify</strong>, your one-stop destination for exquisite decoration items and event
+                decoration services.
+                We bring your celebrations to life with unique designs and exceptional craftsmanship.
+            </p>
+            <div class="about-highlights">
+                <div class="highlight">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Custom Designs</h3>
+                    <p>We specialize in personalized decorations to match your vision and style.</p>
+                </div>
+                <div class="highlight">
+                    <i class="fas fa-award"></i>
+                    <h3>Premium Quality</h3>
+                    <p>Only the finest materials and attention to detail for every item.</p>
+                </div>
+                <div class="highlight">
+                    <i class="fas fa-heart"></i>
+                    <h3>Customer Focused</h3>
+                    <p>Your satisfaction is our top priority, making every event memorable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Reach out for any queries, orders, or custom requirements.</p>
+            <div class="contact-info">
+                <div class="info">
+                    <a href="tel:+919234567891">
+                        <p><i class="fas fa-phone-alt"></i> +91 9234567891</p>
+                    </a>
+                </div>
+                <div class="info">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@festify.com" target="_blank">
+                        <p><i class="fas fa-envelope"></i> info@festify.com</p>
+                    </a>
+                </div>
+                <div class="info">
+                    <p><i class="fas fa-map-marker-alt"></i> Shri Ganganagar, Rajasthan, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>©2024 Festify. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/scripts/script.js"></script>
+    <script src="scripts/addToCart.js"></script>
+    <script src="scripts/responsive.js"></script>
+</body>
+
+</html>

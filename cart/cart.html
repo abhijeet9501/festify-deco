@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_bag" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="/product/product.css">
+    <link rel="stylesheet" href="/responsive/responsive.css">
+</head>
+<body>
+    <section id="header">
+        <a href="/index.html"><img src="/img/logo.png" width=200px class="logo" alt=""></a>
+
+        <div class="hamburger">
+            <span>&#9776;</span>
+        </div>
+        <div class="navbar-items">
+            <a href="/cart/cart.html" id="cart-icon">
+                <span class="material-symbols-outlined">shopping_bag</span>
+                <span id="cart-count-navbar" class="cart-count">0</span>
+            </a>
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="/index.html">Home</a></li>
+                    <li><a href="/index.html#shop">Shop</a></li>
+                    <li><a href="/index.html#about">About</a></li>
+                    <li><a href="/index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="cart-container">
+        <h1>Your Cart</h1>
+        <div id="cart-items"></div>
+        <button id="checkout-btn">Proceed to Checkout</button>
+    </div>
+
+    <!-- Place Order Modal -->
+    <div id="buy-modal" class="modal">
+        <div class="modal-content">
+            <button id="close-modal" class="close-btn">&times;</button>
+            <h2>Place Your Order</h2>
+            <form id="order-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Delivery Address</label>
+                    <textarea id="address" name="address" placeholder="Enter your full delivery address" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="payment-method">Payment Method</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="cash-on-delivery">Cash on Delivery</option>
+                    </select>
+                </div>
+                <button type="submit" id="submit-order-btn" class="submit-btn">Place Order</button>
+
+                <div id="loading-indicator">
+                    <div class="spinner"></div>
+                    <p>Placing your order... Please wait.</p>
+                </div>
+            </form>   
+        </div>
+    </div>
+
+    <script src="/scripts/cart.js"></script>
+    <script src="/scripts/responsive.js"></script>
+    <script src="/scripts/addToCart.js"></script>
+</body>
+</html>
