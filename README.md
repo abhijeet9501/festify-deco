@@ -1,6 +1,3 @@
-# Festify-Deco
-
-## 🎉 Welcome to Festify-Deco!
 Festify-Deco is a web-based solution designed to enhance your festive shopping experience. Whether you're preparing for a grand festival or just looking for unique decorations, Festify-Deco provides a seamless platform to browse, select, and purchase festive items with ease.
 
 ---
